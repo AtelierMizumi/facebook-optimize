@@ -1,0 +1,26 @@
+{
+    "Encoder": "h264_nvenc",
+    "CommonParams": [
+      "-multipass",
+      "2",
+      "-rc-lookahead",
+      "200",
+      "-spatial_aq",
+      "1",
+      "-temporal_aq",
+      "1",
+      "-nonref_p",
+      "1",
+      "-coder",
+      "cabac",
+      "-b_ref_mode",
+      "1",
+      "-preset",
+      "p7",
+      "-rc",
+      "vbr"
+    ],
+    "MaxRes": null,
+    "MaxFps": "120"
+  }
+  
